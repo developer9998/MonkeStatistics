@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace MonkeStatistics.Core.Behaviors
 {
-    internal class PreConfiguredButton : GorillaPressableButton
+    internal class PreConfiguredButton : UIButton
     {
         public bool _Toggling;
         public bool AllowHooking = true;

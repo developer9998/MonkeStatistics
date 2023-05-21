@@ -9,8 +9,8 @@ namespace MonkeStatistics.Core
         {
             WatchObj = UnityEngine.Object.Instantiate((GameObject)Util.AssetLoader.GetAsset("Watch"));
             Transform WatchTransform = WatchObj.transform;
-
-            WatchTransform.SetParent(GameObject.Find("Global/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/upper_arm.L/forearm.L/hand.L").transform);
+            Transform HandTransform = GorillaTagger.Instance.offlineVRRig.leftHandTransform.parent;
+            WatchTransform.SetParent(HandTransform);
             WatchTransform.localPosition = new Vector3(0.0288f, 0.0267f, -0.004f);
             WatchTransform.localRotation = Quaternion.Euler(-26.97f, 94.478f, -93.21101f);
 

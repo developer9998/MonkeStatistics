@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace MonkeStatistics.Core.Behaviors
 {
-    internal class WatchButton : GorillaPressableButton
+    internal class WatchButton : UIButton
     {
         internal static WatchButton Instance;
 

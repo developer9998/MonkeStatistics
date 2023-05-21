@@ -30,7 +30,7 @@
       <HintPath>$(GameAssemblyPath)\clipper_library.dll</HintPath>
     </Reference>
     <Reference Include="MonkeStatistics">
-      <HintPath>..\..\..\..\..\..\..\..\Program Files\Oculus\Software\Software\another-axiom-gorilla-tag\BepInEx\plugins\MonkeStatistics\MonkeStatistics.dll</HintPath>
+      <HintPath>$(PluginsPath)\MonkeStatistics\MonkeStatistics.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Security">
       <HintPath>$(GameAssemblyPath)\Mono.Security.dll</HintPath>
